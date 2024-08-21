@@ -9,8 +9,14 @@ class ArrayDemo
         for(int i=0;i<10;i++)
         {
             a[i]=s.nextInt();
-        }    
-        System.out.println("The array elements are:");
+        }  
+        System.out.println("The array elements before change are:");
+        for(int i=0;i<10;i++)
+        System.out.print(a[i]+" ");
+        System.out.println();
+        //Changing value of an array element
+        a[8]=4;
+        System.out.println("The array elements after change are:");
         for(int i=0;i<10;i++)
         System.out.print(a[i]+" ");
     }
